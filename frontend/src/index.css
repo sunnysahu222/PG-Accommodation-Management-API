@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth dark-mode transitions instead of jarring instant color swaps */
+* {
+  transition-property: background-color, border-color, color;
+  transition-duration: 150ms;
+}
